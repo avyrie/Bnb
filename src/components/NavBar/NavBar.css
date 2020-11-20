@@ -1,23 +1,31 @@
 .navbar {
     position: fixed;
-    height: 50px;
+    height: 40px;
     width: 100vw;
     background-color: #34cef5;
     text-decoration: none;
     display: flex;
     justify-content: left;
-    border: 2px solid #29aecf;
+    border-bottom: 2px solid #29aecf;
     z-index: 10;
-    
 }
 .navlinks {
     color: white;
     padding: 10px;
-    font-size: 12px;
-    padding-right: 5%;
+    font-size: 8px;
+    padding-right: 2%;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.navst {
+    display: flex;
+    width: 100%;
 }
 #pawprint {
     position: relative;
-    height: 95%;
-    width: 40px;
+    height: 70%;
+    width: 35px;
+    top: 5px;
+    left: 5px;
+    padding-right: 13px;
 }

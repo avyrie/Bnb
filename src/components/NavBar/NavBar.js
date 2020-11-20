@@ -8,12 +8,15 @@ const NavBar = () => {
 
     return (
         <nav className="navbar">
-            <NavLink className='navlinks' exact to='/'><img id="pawprint" src={PawPrint} /></NavLink>
-            <NavLink className='navlinks' exact to='/about'>About</NavLink>
-            <NavLink className='navlinks' exact to='/services'>Services</NavLink>
-            <NavLink className='navlinks' exact to='/retail'>Retail</NavLink>
-            <NavLink className='navlinks' exact to='/faq'>FAQ</NavLink>
-            <NavLink className='navlinks' exact to='/gallery'>Photo Gallery</NavLink>
+            <NavLink className='paw' exact to='/'><img id="pawprint" src={PawPrint} /></NavLink>
+            <div className="navst">
+                <NavLink className='navlinks' exact to='/about'>About</NavLink>
+                <NavLink className='navlinks' exact to='/services'>Services</NavLink>
+                <NavLink className='navlinks' exact to='/retail'>Retail</NavLink>
+                <NavLink className='navlinks' exact to='/faq'>FAQ</NavLink>
+                <NavLink className='navlinks' exact to='/gallery'>Photo Gallery</NavLink>
+                <NavLink className='navlinks' exact to='/hours'>Hours</NavLink>
+            </div>
         </nav>
     )
 }

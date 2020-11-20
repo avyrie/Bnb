@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import HomePage from '../pages/HomePage/HomePage';
 import About from '../pages/About'
 import Services from '../pages/Services'
@@ -8,7 +8,7 @@ import FAQ from '../pages/FAQ'
 import PhotoGallery from '../pages/PhotoGallery'
 
 export default () => {
-    return(
+    return (
         <Switch>
             {/* Home Page  */}
             <Route exact path='/' component={HomePage} />

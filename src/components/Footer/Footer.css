@@ -1,21 +1,66 @@
 .footer {
+    position: relative;
     display: flex;
+    justify-content: center;
+    flex: auto;
+    padding-top: 10px;
+    top: 20px;
     bottom: 0;
-    height: 70px;
+    height: 40px;
     width: 100%;
-    background-color: blue;
+    background-color: #34CEF5;
+    border-top: 2px solid #29aecf;
     color: white;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 0px;
+}
+.footnav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
 }
 .footlinks {
     color: white;
     text-decoration: none;
     padding-right: 5%;
-    font-size: 10px;
+    font-size: 7px;
     overflow: hidden;
+    left: 0;
 }
 #pawprintf {
+    position: relative;
     height: 30%;
-    /* padding-top: 10px; */
+    width: 40px;
+    left: 10px;
+    top: 10px;
+}
+a.footlinks.active {
+    width: 20%;
+}
+.copyright {
+    position: absolute;
+    font-size: 7px;
+    text-align: center;
+    display: inline-block;
+    bottom: 3px;
+    
+    /* padding-top: 4px; */
+}
+.navs {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.navs .footlinks::after {
+    content: "|";
+    float: right;
+    padding-left: 5vw;
+    color: #fff;
+}
+.navs .footlinks:last-child::after {
+    display: none;
 }

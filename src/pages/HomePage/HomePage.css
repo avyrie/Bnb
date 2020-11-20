@@ -16,18 +16,20 @@ fill: #FF9800;
 
 .store-container {
     position: relative;
-    top: 40px;
+    top: 20px;
     height: 36vh;
     width: 100%;
-    margin-bottom: 62px;
+    margin-bottom: 38px;
 }
 .store {
     position: absolute;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-top: 0;
     /* height: 100%; */
     width: 100%;
     z-index: 3;
+    top: 0;
 }
 .clouds {
     display: flex;
